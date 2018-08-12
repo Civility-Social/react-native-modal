@@ -469,7 +469,8 @@ class ReactNativeModal extends Component {
                   : "transparent",
                 width: deviceWidth,
                 height: deviceHeight,
-                border: 'green'
+                borderHeight: 'green',
+                borderWidth: 2,
               }
             ]}
           />
