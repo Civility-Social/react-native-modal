@@ -411,6 +411,7 @@ class ReactNativeModal extends Component {
       onBackButtonPress,
       useNativeDriver,
       style,
+      backdropPadding,
       ...otherProps
     } = this.props;
     const { deviceWidth, deviceHeight } = this.state;
@@ -469,8 +470,7 @@ class ReactNativeModal extends Component {
                   : "transparent",
                 width: deviceWidth,
                 height: deviceHeight,
-                borderColor: 'green',
-                borderWidth: 2,
+                padding: backdropPadding
               }
             ]}
           />
