@@ -417,7 +417,7 @@ class ReactNativeModal extends Component {
     const { deviceWidth, deviceHeight } = this.state;
 
     const computedStyle = [
-      { margin: 0, transform: [{ translateY: 0 }] },
+      { margin: backdropPadding, transform: [{ translateY: 0 }] },
       styles.content,
       style
     ];
@@ -470,7 +470,7 @@ class ReactNativeModal extends Component {
                   : "transparent",
                 width: deviceWidth,
                 height: deviceHeight,
-                padding: backdropPadding
+                padding: backDropPadding
               }
             ]}
           />
