@@ -468,7 +468,8 @@ class ReactNativeModal extends Component {
                   ? backdropColor
                   : "transparent",
                 width: deviceWidth,
-                height: deviceHeight
+                height: deviceHeight,
+                border: 'green'
               }
             ]}
           />
